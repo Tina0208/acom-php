@@ -1,13 +1,13 @@
 <?php
-// $db_host = '128.199.180.121';
-// $db_name = 'acom';
-// $db_user = 'root';
-// $db_pass = 'Backend!@#2022Test';
-
-$db_host = 'localhost';
+$db_host = '128.199.180.121';
 $db_name = 'acom';
 $db_user = 'root';
-$db_pass = '1234';
+$db_pass = 'Backend!@#2022Test';
+
+// $db_host = 'localhost';
+// $db_name = 'acom';
+// $db_user = 'root';
+// $db_pass = '1234';
 
 $dsn = "mysql:host={$db_host};dbname={$db_name};charset=utf8";
 $db_options = [
